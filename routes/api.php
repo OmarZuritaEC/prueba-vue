@@ -15,4 +15,7 @@ Route::group(['prefix' => 'v1', 'as' => 'api.', 'namespace' => 'Api\V1\Admin', '
 
     // Localidades
     Route::resource('localidades', 'LocalidadesApiController');
+
+    // Profesiones
+    Route::resource('profesiones', 'ProfesionesApiController');
 });

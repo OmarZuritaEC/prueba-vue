@@ -11,6 +11,8 @@ import UsersIndex from './cruds/Users'
 import UsersSingle from './cruds/Users/single'
 import LocalidadesIndex from './cruds/Localidades'
 import LocalidadesSingle from './cruds/Localidades/single'
+import ProfesionesIndex from './cruds/Profesiones'
+import ProfesionesSingle from './cruds/Profesiones/single'
 
 Vue.use(Vuex)
 
@@ -26,7 +28,9 @@ export default new Vuex.Store({
     UsersIndex,
     UsersSingle,
     LocalidadesIndex,
-    LocalidadesSingle
+    LocalidadesSingle,
+    ProfesionesIndex,
+    ProfesionesSingle
   },
   strict: debug
 })
