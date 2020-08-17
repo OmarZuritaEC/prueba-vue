@@ -96,6 +96,26 @@ class PermissionsTableSeeder extends Seeder
                 'id'    => 22,
                 'title' => 'localidade_access',
             ],
+            [
+                'id'    => 23,
+                'title' => 'profesione_create',
+            ],
+            [
+                'id'    => 24,
+                'title' => 'profesione_edit',
+            ],
+            [
+                'id'    => 25,
+                'title' => 'profesione_show',
+            ],
+            [
+                'id'    => 26,
+                'title' => 'profesione_delete',
+            ],
+            [
+                'id'    => 27,
+                'title' => 'profesione_access',
+            ],
         ];
 
         Permission::insert($permissions);

@@ -70,6 +70,12 @@ export default {
               icon: 'table_view',
               path: { name: 'localidades.index' },
               gate: 'localidade_access'
+            },
+            {
+              title: 'Profesiones',
+              icon: 'table_view',
+              path: { name: 'profesiones.index' },
+              gate: 'profesione_access'
             }
           ]
         }

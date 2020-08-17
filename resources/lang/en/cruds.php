@@ -85,4 +85,20 @@ return [
             'deleted_at_helper'  => '',
         ],
     ],
+    'profesione'     => [
+        'title'          => 'Profesiones',
+        'title_singular' => 'Profesione',
+        'fields'         => [
+            'id'                 => 'ID',
+            'id_helper'          => '',
+            'descripcion'        => 'Descripcion',
+            'descripcion_helper' => '',
+            'created_at'         => 'Created at',
+            'created_at_helper'  => '',
+            'updated_at'         => 'Updated at',
+            'updated_at_helper'  => '',
+            'deleted_at'         => 'Deleted at',
+            'deleted_at_helper'  => '',
+        ],
+    ],
 ];

@@ -126,6 +126,30 @@ const routes = [
             name: 'localidades.edit',
             component: () => import('@cruds/Localidades/Edit.vue'),
             meta: { title: 'Localidades' }
+          },
+          {
+            path: 'profesiones',
+            name: 'profesiones.index',
+            component: () => import('@cruds/Profesiones/Index.vue'),
+            meta: { title: 'Profesiones' }
+          },
+          {
+            path: 'profesiones/create',
+            name: 'profesiones.create',
+            component: () => import('@cruds/Profesiones/Create.vue'),
+            meta: { title: 'Profesiones' }
+          },
+          {
+            path: 'profesiones/:id',
+            name: 'profesiones.show',
+            component: () => import('@cruds/Profesiones/Show.vue'),
+            meta: { title: 'Profesiones' }
+          },
+          {
+            path: 'profesiones/:id/edit',
+            name: 'profesiones.edit',
+            component: () => import('@cruds/Profesiones/Edit.vue'),
+            meta: { title: 'Profesiones' }
           }
         ]
       }
